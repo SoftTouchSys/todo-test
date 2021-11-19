@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+}
+#todo-list {
+  width: 420px;
+  margin: 60px auto;
+}
+form, .todo {
+  border: 1px solid grey;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+form {
+  margin-bottom: 30px;
+  
+}
+form input {
+  padding: 4px 8px;
+  flex-grow: 1;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type='text'] { font-size: 20px; font-family: Arial, Helvetica, sans-serif; }
+input[type='color'] { font-size: 20px; font-family: Arial, Helvetica, sans-serif; }
+
+.todo-text input {
+  padding: 4px;
+}
+.todo-text {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.todo-actions {
+  display: flex;
+  justify-content: space-between;
+}
